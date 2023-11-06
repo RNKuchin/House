@@ -1,0 +1,27 @@
+.section {
+  margin-bottom: 70px;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+}
+
+.section h2 {
+  margin-top: 124px;
+  color: #2c2d35;
+  font-size: 40px;
+  line-height: 110%;
+  /* 44px */
+  margin-bottom: 20px;
+}
+
+.section p {
+  color: #2c2d35;
+  margin-bottom: 20px;
+}
+
+.section img {
+  max-width: calc(var(--index) * 22.9);
+  margin-right: 30px;
+}

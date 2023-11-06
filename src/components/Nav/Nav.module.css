@@ -1,0 +1,35 @@
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  color: #2c2d35;
+}
+.nav a {
+  transition: ease-in 0.25s;
+}
+.nav a:hover {
+  color: #598d66;
+}
+.nav a:focus {
+  color: #2c2d35;
+  background-color: #d4e8d9;
+}
+.nav a:active {
+  color: #376b44;
+  background-color: transparent;
+}
+.nav a path {
+  transition: ease-in 0.25s;
+}
+.nav a:hover path {
+  stroke: #598d66;
+}
+.nav a:focus path {
+  stroke: #2c2d35;
+  fill: #d4e8d9;
+  border: none;
+}
+.nav a:active path {
+  stroke: #376b44;
+}

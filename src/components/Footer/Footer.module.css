@@ -1,0 +1,63 @@
+.footer {
+  padding: 30px 0;
+  background-color: #e1ede6;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left a {
+  color: #2c2d35;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.left span {
+  color: #86928b;
+}
+.center {
+  display: flex;
+  gap: 60px;
+}
+.center li {
+  color: #2c2d35;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.center li a {
+  color: #86928b;
+  font-size: 18px;
+  line-height: 150%; /* 27px */
+}
+.right svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.right a path {
+  transition: ease-in 0.25s;
+}
+.right a:hover path {
+  fill: #598d66;
+}
+.right a:focus path {
+  fill: #598d66;
+  background-color: #d4e8d9;
+}
+.right a:active path {
+  fill: #376b44;
+}
+.right span {
+  display: block;
+  color: #86928b;
+  font-size: 12px;
+  line-height: 120%;
+  margin-bottom: 6px;
+}

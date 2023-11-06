@@ -1,0 +1,43 @@
+.section {
+  padding: 70px 0;
+  margin-bottom: 70px;
+  background-image: url(../../assets/pic_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section h2 {
+  color: #f4f6f5;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 20px;
+  max-width: 540px;
+}
+.section p {
+  color: #fff;
+  line-height: 150%; /* 27px */
+  margin-bottom: 20px;
+  max-width: 540px;
+}
+.section p:last-of-type {
+  margin-bottom: 60px;
+}
+.section button {
+  background-color: #eedb6d;
+  color: #2c2d35;
+  border: none;
+}
+.section button:hover {
+  background-color: #faeb97;
+  color: #2c2d35;
+}
+.section button:focus {
+  color: #2c2d35;
+  border: 1px solid #a38314;
+  background-color: #faeb97;
+}
+.section button:active {
+  background-color: #d9b949;
+  color: #2c2d35;
+}

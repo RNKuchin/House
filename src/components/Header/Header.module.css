@@ -1,0 +1,9 @@
+.bg {
+  background-color: #e1ede6;
+}
+.flex {
+  padding: 33px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

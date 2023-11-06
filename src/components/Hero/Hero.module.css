@@ -1,0 +1,33 @@
+.section {
+  margin-bottom: 70px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.flex img {
+  max-width: calc(var(--index) * 22.9);
+}
+.text {
+  max-width: calc(var(--index) * 22.9);
+}
+.text h1 {
+  color: #2c2d35;
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+.text h1 span {
+  color: #598d66;
+}
+.text p {
+  color: #86928b;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  margin-bottom: 60px;
+}
