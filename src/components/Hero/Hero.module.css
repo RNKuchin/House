@@ -31,3 +31,9 @@
   line-height: 150%; /* 27px */
   margin-bottom: 60px;
 }
+@media (max-width:768px) {
+  .text h1 {
+    font-size: 2.63rem;
+    margin-top: 35px;
+  }
+}

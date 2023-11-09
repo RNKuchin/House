@@ -13,6 +13,11 @@
   line-height: 100%;
   margin-bottom: 20px;
   max-width: 540px;
+  padding-left: 80px;
+  background-image: url(./icon.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 60px;
 }
 .section p {
   color: #fff;
@@ -40,4 +45,10 @@
 .section button:active {
   background-color: #d9b949;
   color: #2c2d35;
+}
+
+@media (max-width:768px) {
+  .section h2{
+    font-size: 30px;
+  }
 }

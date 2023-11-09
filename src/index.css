@@ -19,6 +19,9 @@ body{
   font-weight: 500;
   background-color: #F4F6F5;
 }
+body h2, body h3{
+  font-weight: 500;
+}
 
 button, input[type="button"], input[type="submit"], input[type="reset"] {
   background: none;
@@ -41,4 +44,11 @@ ul, ol {
   max-width: 1110px;
   min-width: 320px;
   margin: 0 auto;
+}
+@media (max-width:768px) {
+  .container{
+    max-width: 690px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
 }
